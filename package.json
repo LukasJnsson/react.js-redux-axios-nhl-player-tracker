@@ -1,0 +1,54 @@
+{
+  "type": "module",
+  "name": "react.js-redux-axios-nhl-player-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.13.7",
+    "@mui/joy": "^5.0.0-alpha.86",
+    "@mui/material": "^5.13.7",
+    "@mui/x-data-grid": "^6.9.1",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@testing-library/jest-dom": "*",
+    "@testing-library/react": "*",
+    "@testing-library/user-event": "*",
+    "axios": "^1.4.0",
+    "react": "^18.2.0",
+    "react-dom": "*",
+    "react-helmet": "^6.1.0",
+    "react-loading": "^2.0.3",
+    "react-redux": "^8.1.1",
+    "react-router-dom": "^6.14.1",
+    "react-scripts": "*",
+    "web-vitals": "*"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "mocha",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
